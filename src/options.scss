@@ -1,0 +1,45 @@
+@import 'imports';
+
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 0.625rem;
+
+    margin-bottom: 2rem;
+}
+
+.option-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem; */
+    /* border: 0.125rem solid #ccc; */
+    background-color: #f3f3f3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    /* border-color: #D1AF6D; */
+    background-color: $gold-light;
+}
+
+.option-button--active {
+    /* border-color: #D1AF6D; */
+    background-color: $gold;
+}
+
+.option-image {
+    width: 100%;
+    height: 6.25rem;
+    object-fit: cover;
+    /* margin-bottom: 0.5rem; */
+    /* border-radius: 0.3rem; */
+}
+
+.option-text{
+    padding: 1rem;
+}
+

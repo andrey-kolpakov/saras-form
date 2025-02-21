@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #1d1d1d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+  margin: unset;
+}
+
+p{
+  margin: 0;
+}
+
+a{
+  // text-decoration: unset;
+  color: inherit;
+}
+
+*{
+  
+}
+
+
+
+.App {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1a4527;
+
+  z-index: 10;
+}
+
+body{
+  
+}

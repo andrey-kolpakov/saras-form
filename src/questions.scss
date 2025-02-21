@@ -1,0 +1,22 @@
+@import 'imports';
+
+.question-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+    
+}
+
+
+.question-container__number{
+    width: 1rem;
+    height: 1rem;
+
+    padding: .5rem;
+
+    border-radius: 50%;
+
+    border: 2px solid #ccc;
+    text-align: center;
+}

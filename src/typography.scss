@@ -1,0 +1,95 @@
+@import 'mixins';
+@import 'vars';
+
+//Размеры
+.tp-xxl{
+    font-size: 2.5rem;
+
+    @include breakpoint($mobile-bp){
+        font-size: 2rem;
+    }
+}
+
+.tp-xl{
+    font-size: 2rem;
+}
+
+.tp-l{
+    font-size: 1.5rem;
+}
+
+.tp-m{
+    font-size: 1rem;
+}
+
+.tp-s{
+    font-size: .8rem;
+}
+
+.tp-xs{
+    font-size: .7rem;
+}
+
+.tp-xxs{
+    font-size: .6rem;
+}
+
+
+
+//Жирность
+.tp-thin {
+    font-weight: 100;
+}
+
+.tp-extra-light {
+    font-weight: 200;
+}
+
+.tp-light {
+    font-weight: 300;
+}
+
+.tp-normal {
+    font-weight: 400; /* По умолчанию */
+}
+
+.tp-medium {
+    font-weight: 500;
+}
+
+.tp-semi-bold {
+    font-weight: 600;
+}
+
+.tp-bold {
+    font-weight: 700; /* Жирный */
+}
+
+.tp-extra-bold {
+    font-weight: 800;
+}
+
+.tp-black {
+    font-weight: 900; /* Самый жирный */
+}
+
+
+
+//Особенности
+.tp-upper{
+    text-transform: uppercase;
+}
+
+.tp-ls{
+    letter-spacing: .2rem;
+}
+
+.subheader {
+    font-weight: 300;
+    font-size: .8rem;
+    color: black !important;
+    // text-transform: lowercase;
+    // margin-bottom: 1rem;
+
+    color: $gold;
+}
